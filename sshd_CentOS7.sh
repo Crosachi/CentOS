@@ -8,7 +8,6 @@
 yum install rcs -y
 mkdir /etc/ssh/RCS
 ci -l /etc/ssh/sshd_config << EOS
-default
 .
 EOS
 
