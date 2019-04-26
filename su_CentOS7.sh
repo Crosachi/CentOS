@@ -8,7 +8,6 @@
 yum install rcs -y
 mkdir /etc/pam.d/RCS
 ci -l /etc/pam.d/su << EOS
-
 .
 EOS
 
